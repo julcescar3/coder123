@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Quintessential&family=Roboto:wght@300&display=swap');
+
+*{
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+html{
+	font-size: 80%;
+}
+
+
+body{
+    background-image: url(../img/backgrounds/flower.png);
+}
+p{
+    color: aqua;
+}
+h1{
+    color: blue;
+    font-size:large;
+    margin:auto;
+
+}
+@media (min-width: 720px) {
+    h1{
+        color: blue;
+        font-size:x-large;
+    }
+
+}
+h2{
+    color: rgb(255, 0, 195);
+    font-size:medium;
+    margin:auto;
+}
+@media (min-width: 720px) {
+    h2{
+        color: rgb(255, 0, 195);
+        font-size:large;
+    }
+
+}
+h3{
+    font-size: small;
+
+}
+
+
+#cabecera{
+   
+    background-image: url(../img/backgrounds/bubble.png);
+    width:100%;
+    border: 5px;
+    border-style: solid;
+    border-color: rgb(0, 255, 187);
+    padding: 20px 10px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+   
+}
+#cabecera nav ul{
+    gap: 15px;
+    margin-top: 40px;
+    margin-right: 50px;
+    list-style: none; 
+}
+
+.imagen1{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    gap:50px;
+    margin:50px 0; 
+}
+.imagen1 p{
+ width:300px;
+}
+.imagen1 img{ 
+   width:250px;
+}
+
+
+
+
+
+
+@media (min-width:720px)  {
+    .imagen1{
+    display:flex;
+    flex-direction: row;
+    
+    justify-content: center;
+    align-items: center;
+        
+    margin:50px 0;    
+    gap: 130px;
+    
+    }
+    .imagen1 p{
+    width:300px;
+    }
+    .imagen1 img{
+    width:250px;
+    /* float: right;
+        margin-top: 50px;
+        margin-right: 50px;
+    position: sticky;*/
+    }
+}
+
+
+.videos{
+    display:flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    align-items: center; 
+
+    margin:50px 0;
+    gap:50px;
+   
+
+}
+.videos p{
+    width:300px;
+
+}
+
+@media (min-width:720px){
+    .videos{
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap:50px;
+
+    }
+    .videos p{
+       
+        width: 200px;
+        
+    }
+
+}
+
+.formularios{
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    align-items: center; 
+    gap:50px;
+
+}
+.formularios p{
+
+    width:350px;
+
+}
+
+.estilo_menu{
+    font-size:larger;
+    font-weight: 800;
+}
+.nav-item:hover{
+    background-color: chocolate;
+}
+
+
+.texto_final{
+    color: rgb(165, 151, 42);
+    font-weight: 900;
+    width:100%;
+    text-align: center;
+    margin-top: 50px;
+}
+.texto_comentario{
+    color: rgb(46, 165, 42);
+    font-weight: 700;
+    width:80%;
+    margin:auto;
+    margin-top: 50px;
+}
+.imagenes_flex1{
+    display: flex;
+    flex-direction:column;
+ 
+ 
+}
+.row{
+    margin:0 100px;
+}
+.texto{
+    color:rgb(183, 0, 255);
+    font-weight: 900;
+    
+}
+.alinear{
+    margin: auto;
+}
+
+/*CSS exclusivos pagina productos*/
+#carouselExampleIndicators{
+   
+    width:200px;
+    margin:0 auto;
+    height: 200px;
+}
+#carouselExampleIndicators img{
+    margin:0 auto;
+    height: 200px;
+}
+@media (min-width:768px){
+    #carouselExampleIndicators{
+        width:300px;
+        height: 300px;
+        margin:0 auto;
+    }
+    #carouselExampleIndicators img{
+        width: 40%;
+        height: 300px;
+    }
+
+}
+@media (min-width:992px){
+    #carouselExampleIndicators{
+        width:350px;
+        height: 350px;  
+        margin:0 auto;  
+    }
+    #carouselExampleIndicators img{
+       width: 350px;
+        height: 350px;
+    }
+}
+#carouselExampleIndicators2{
+    width:40%;
+    margin:0 auto;
+}
+#carouselExampleIndicators3{
+    width:40%;
+    margin:0 auto;
+}
+
+.carousel-item img{
+    height: 350px;
+}
+.centrar{
+    margin:15px auto;
+    
+}
+.centrar iframe{
+    width:200px;
+    height: 200px;
+}   
+@media (min-width:768px){
+    .centrar{
+        margin:15px auto; 
+        
+    }
+    
+    .centrar iframe{
+       width:300px;
+        height:300px;
+        
+    }
+}
+@media (min-width:992px) {
+
+ .centrar{
+        margin:0 auto;
+        
+    }
+    .centrar iframe{
+        width:350px;
+        height:350px;
+    }
+}
+
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    height: 40px;
+    width:40px;
+    outline: black;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: brown;
+    background-size: 100%, 100%;
+    border-radius: 40%;
+    border: 1px solid black;
+    margin: 0 10px;
+}
+
